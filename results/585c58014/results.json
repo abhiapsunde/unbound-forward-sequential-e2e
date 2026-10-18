@@ -1,0 +1,584 @@
+[
+  {
+    "scenario": "healthy, primary slower (150ms)",
+    "modes": {
+      "up1": "ok:150"
+    },
+    "why": "primary used for everything even though fallbacks are faster",
+    "expect_seq": "exactly {'up1': 30}",
+    "seq": {
+      "answered_by": {
+        "up1": 30
+      },
+      "lat_p50_ms": 161,
+      "lat_max_ms": 164,
+      "lat_first5_ms": [
+        157,
+        162,
+        158,
+        161,
+        159
+      ],
+      "upstream_received": {
+        "up1": 30,
+        "up2": 0,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up1": 6,
+        "up2": 11,
+        "up3": 13
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 162,
+      "lat_first5_ms": [
+        159,
+        159,
+        4,
+        161,
+        7
+      ],
+      "upstream_received": {
+        "up1": 6,
+        "up2": 11,
+        "up3": 13
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary slow but alive (800ms)",
+    "modes": {
+      "up1": "ok:800"
+    },
+    "why": "slow is not down: no traffic leaks once the rtt is known",
+    "expect_seq": "up1 >= 13, rest up2, no timeouts",
+    "seq": {
+      "answered_by": {
+        "up2": 2,
+        "up1": 13
+      },
+      "lat_p50_ms": 812,
+      "lat_max_ms": 813,
+      "lat_first5_ms": [
+        386,
+        765,
+        813,
+        807,
+        811
+      ],
+      "upstream_received": {
+        "up1": 15,
+        "up2": 2,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up3": 9,
+        "up2": 6
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 389,
+      "lat_first5_ms": [
+        4,
+        8,
+        389,
+        8,
+        5
+      ],
+      "upstream_received": {
+        "up1": 1,
+        "up2": 6,
+        "up3": 9
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary drops one packet",
+    "modes": {
+      "up1": "dropn:1"
+    },
+    "why": "a single loss fails over that query only, the next goes to the primary",
+    "expect_seq": "exactly {'up1': 14, 'up2': 1}",
+    "seq": {
+      "answered_by": {
+        "up2": 1,
+        "up1": 14
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 384,
+      "lat_first5_ms": [
+        384,
+        5,
+        7,
+        6,
+        5
+      ],
+      "upstream_received": {
+        "up1": 15,
+        "up2": 1,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up3": 6,
+        "up2": 9
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 391,
+      "lat_first5_ms": [
+        391,
+        6,
+        6,
+        6,
+        6
+      ],
+      "upstream_received": {
+        "up1": 1,
+        "up2": 9,
+        "up3": 6
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary drops two packets",
+    "modes": {
+      "up1": "dropn:2"
+    },
+    "why": "two losses in a row are not an outage either",
+    "expect_seq": "exactly {'up1': 13, 'up2': 2}",
+    "seq": {
+      "answered_by": {
+        "up2": 2,
+        "up1": 13
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 769,
+      "lat_first5_ms": [
+        388,
+        769,
+        6,
+        7,
+        6
+      ],
+      "upstream_received": {
+        "up1": 15,
+        "up2": 2,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up2": 7,
+        "up3": 8
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 390,
+      "lat_first5_ms": [
+        3,
+        5,
+        390,
+        6,
+        5
+      ],
+      "upstream_received": {
+        "up1": 1,
+        "up2": 7,
+        "up3": 8
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary down (no answer)",
+    "modes": {
+      "up1": "drop"
+    },
+    "why": "fail over to the first fallback only, never the last resort, no client timeouts",
+    "expect_seq": "exactly {'up2': 20}",
+    "seq": {
+      "answered_by": {
+        "up2": 20
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 1519,
+      "lat_first5_ms": [
+        390,
+        767,
+        1519,
+        6,
+        6
+      ],
+      "upstream_received": {
+        "up1": 3,
+        "up2": 20,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up2": 8,
+        "up3": 12
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 387,
+      "lat_first5_ms": [
+        387,
+        6,
+        6,
+        4,
+        6
+      ],
+      "upstream_received": {
+        "up1": 1,
+        "up2": 8,
+        "up3": 12
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary and first fallback down",
+    "modes": {
+      "up1": "drop",
+      "up2": "drop"
+    },
+    "why": "fail over down the list to the last resort, no client timeouts",
+    "expect_seq": "exactly {'up3': 15}",
+    "seq": {
+      "answered_by": {
+        "up3": 14,
+        "TIMEOUT": 1
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 20000,
+      "lat_first5_ms": [
+        772,
+        1530,
+        20000,
+        8,
+        6
+      ],
+      "upstream_received": {
+        "up1": 3,
+        "up2": 3,
+        "up3": 15
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up3": 15
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 1542,
+      "lat_first5_ms": [
+        1542,
+        7,
+        6,
+        6,
+        7
+      ],
+      "upstream_received": {
+        "up1": 2,
+        "up2": 1,
+        "up3": 15
+      }
+    },
+    "pass": false
+  },
+  {
+    "scenario": "primary answers SERVFAIL",
+    "modes": {
+      "up1": "servfail"
+    },
+    "why": "a SERVFAIL from the primary is retried on the fallback",
+    "expect_seq": "exactly {'up2': 15}",
+    "seq": {
+      "answered_by": {
+        "up2": 15
+      },
+      "lat_p50_ms": 9,
+      "lat_max_ms": 10,
+      "lat_first5_ms": [
+        5,
+        6,
+        6,
+        10,
+        9
+      ],
+      "upstream_received": {
+        "up1": 15,
+        "up2": 15,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up2": 8,
+        "up3": 7
+      },
+      "lat_p50_ms": 7,
+      "lat_max_ms": 13,
+      "lat_first5_ms": [
+        7,
+        13,
+        7,
+        7,
+        6
+      ],
+      "upstream_received": {
+        "up1": 7,
+        "up2": 8,
+        "up3": 7
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary answers REFUSED",
+    "modes": {
+      "up1": "refused"
+    },
+    "why": "a REFUSED from the primary is retried on the fallback",
+    "expect_seq": "exactly {'up2': 15}",
+    "seq": {
+      "answered_by": {
+        "up2": 15
+      },
+      "lat_p50_ms": 9,
+      "lat_max_ms": 10,
+      "lat_first5_ms": [
+        5,
+        6,
+        6,
+        10,
+        9
+      ],
+      "upstream_received": {
+        "up1": 15,
+        "up2": 15,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up3": 8,
+        "up2": 7
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 13,
+      "lat_first5_ms": [
+        9,
+        6,
+        9,
+        9,
+        10
+      ],
+      "upstream_received": {
+        "up1": 9,
+        "up2": 7,
+        "up3": 8
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary answers garbage",
+    "modes": {
+      "up1": "garbage"
+    },
+    "why": "an unparsable reply is treated as no reply",
+    "expect_seq": "exactly {'up2': 15}",
+    "seq": {
+      "answered_by": {
+        "up2": 15
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 1516,
+      "lat_first5_ms": [
+        387,
+        763,
+        1516,
+        6,
+        6
+      ],
+      "upstream_received": {
+        "up1": 3,
+        "up2": 15,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up3": 8,
+        "up2": 7
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 389,
+      "lat_first5_ms": [
+        4,
+        6,
+        5,
+        5,
+        4
+      ],
+      "upstream_received": {
+        "up1": 1,
+        "up2": 7,
+        "up3": 8
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary answers with wrong query id",
+    "modes": {
+      "up1": "wrongid"
+    },
+    "why": "a spoofed-looking reply is ignored",
+    "expect_seq": "exactly {'up2': 15}",
+    "seq": {
+      "answered_by": {
+        "up2": 15
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 1513,
+      "lat_first5_ms": [
+        388,
+        766,
+        1513,
+        6,
+        6
+      ],
+      "upstream_received": {
+        "up1": 3,
+        "up2": 15,
+        "up3": 0
+      }
+    },
+    "rtt": {
+      "answered_by": {
+        "up2": 10,
+        "up3": 5
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 389,
+      "lat_first5_ms": [
+        4,
+        6,
+        389,
+        7,
+        7
+      ],
+      "upstream_received": {
+        "up1": 1,
+        "up2": 10,
+        "up3": 5
+      }
+    },
+    "pass": true
+  },
+  {
+    "scenario": "primary recovers after outage",
+    "why": "traffic returns to the primary once it answers again",
+    "back_on_primary_after_s": 28.2,
+    "polls": [
+      [
+        0.0,
+        "up2",
+        4
+      ],
+      [
+        2.0,
+        "up2",
+        8
+      ],
+      [
+        4.0,
+        "up2",
+        6
+      ],
+      [
+        6.0,
+        "up2",
+        7
+      ],
+      [
+        8.0,
+        "up2",
+        7
+      ],
+      [
+        10.1,
+        "up2",
+        6
+      ],
+      [
+        12.1,
+        "up2",
+        7
+      ],
+      [
+        14.1,
+        "up2",
+        7
+      ],
+      [
+        16.1,
+        "up2",
+        6
+      ],
+      [
+        18.1,
+        "up2",
+        6
+      ],
+      [
+        20.1,
+        "up2",
+        6
+      ],
+      [
+        22.1,
+        "up2",
+        6
+      ],
+      [
+        24.1,
+        "up2",
+        6
+      ],
+      [
+        26.1,
+        "up2",
+        7
+      ],
+      [
+        28.2,
+        "up1",
+        8
+      ]
+    ],
+    "after": {
+      "answered_by": {
+        "up1": 10
+      },
+      "lat_p50_ms": 6,
+      "lat_max_ms": 8,
+      "lat_first5_ms": [
+        5,
+        8,
+        6,
+        5,
+        6
+      ]
+    },
+    "pass": true
+  }
+]

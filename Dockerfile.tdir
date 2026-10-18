@@ -1,0 +1,13 @@
+# Runs unbound's own test suites, make test (unit tests and testbound
+# replay tests) and make longtest (the .tdir tests), the way upstream does.
+FROM debian:bookworm-slim
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends \
+      build-essential libssl-dev libexpat1-dev bison flex ca-certificates \
+      ldnsutils bind9-dnsutils xxd netcat-openbsd curl procps iproute2 \
+ && rm -rf /var/lib/apt/lists/*
+COPY src.tar /src.tar
+RUN mkdir /src && tar -xf /src.tar -C /src && cd /src \
+ && ./configure --disable-flto && make -j"$(nproc)"
+WORKDIR /src
+CMD ["sh", "-c", "make test 2>&1; echo \"make test exit $?\"; make longtest 2>&1"]

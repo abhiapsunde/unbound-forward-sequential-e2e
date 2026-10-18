@@ -1,0 +1,5 @@
+src.tar
+build*.log
+out/
+e2e-*.log
+/longtest-*.summary

@@ -1,0 +1,53 @@
+name: unbound-e2e
+
+x-upstream: &upstream
+  image: unbound-e2e
+  command: ["python3", "-u", "/opt/e2e/fakedns.py"]
+
+x-unbound: &unbound
+  image: unbound-e2e
+  cap_add: [NET_ADMIN, NET_RAW]
+  volumes:
+    - ./conf:/etc/unbound:ro
+    - ./out:/out
+  depends_on: [up1, up2, up3]
+
+services:
+  up1:
+    <<: *upstream
+    environment: {NAME: up1, ANSWER_IP: 192.0.2.11}
+    networks: {e2e: {ipv4_address: 172.28.0.11}}
+  up2:
+    <<: *upstream
+    environment: {NAME: up2, ANSWER_IP: 192.0.2.12}
+    networks: {e2e: {ipv4_address: 172.28.0.12}}
+  up3:
+    <<: *upstream
+    environment: {NAME: up3, ANSWER_IP: 192.0.2.13}
+    networks: {e2e: {ipv4_address: 172.28.0.13}}
+
+  # outbound traffic to the upstreams is captured to out/<name>.pcap
+  unbound-seq:
+    <<: *unbound
+    command: ["sh", "-c", "tcpdump -i eth0 -U -w /out/unbound-seq.pcap 'port 53 and not host 172.28.0.100' 2>/dev/null & exec unbound -d -c /etc/unbound/seq.conf"]
+    networks: {e2e: {ipv4_address: 172.28.0.2}}
+  unbound-rtt:
+    <<: *unbound
+    command: ["sh", "-c", "tcpdump -i eth0 -U -w /out/unbound-rtt.pcap 'port 53 and not host 172.28.0.100' 2>/dev/null & exec unbound -d -c /etc/unbound/rtt.conf"]
+    networks: {e2e: {ipv4_address: 172.28.0.3}}
+
+  runner:
+    image: unbound-e2e
+    command: ["python3", "-u", "/opt/e2e/runner.py"]
+    volumes:
+      - ./out:/out
+      - ./conf:/etc/unbound:ro
+    depends_on: [unbound-seq, unbound-rtt]
+    networks: {e2e: {ipv4_address: 172.28.0.100}}
+    profiles: [run]
+
+networks:
+  e2e:
+    ipam:
+      config:
+        - subnet: 172.28.0.0/24

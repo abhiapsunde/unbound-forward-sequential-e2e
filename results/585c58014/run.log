@@ -1,0 +1,72 @@
+22:57:46 === healthy, primary slower (150ms)
+22:57:53   seq: answered_by={'up1': 30} received={'up1': 30, 'up2': 0, 'up3': 0} p50=161ms max=164ms first5=[157, 162, 158, 161, 159]
+22:57:56   rtt: answered_by={'up1': 6, 'up2': 11, 'up3': 13} received={'up1': 6, 'up2': 11, 'up3': 13} p50=6ms max=162ms first5=[159, 159, 4, 161, 7]
+22:57:56   seq PASS (expected exactly {'up1': 30})
+22:57:56 === primary slow but alive (800ms)
+22:58:08   seq: answered_by={'up2': 2, 'up1': 13} received={'up1': 15, 'up2': 2, 'up3': 0} p50=812ms max=813ms first5=[386, 765, 813, 807, 811]
+22:58:09   rtt: answered_by={'up3': 9, 'up2': 6} received={'up1': 1, 'up2': 6, 'up3': 9} p50=6ms max=389ms first5=[4, 8, 389, 8, 5]
+22:58:09   seq PASS (expected up1 >= 13, rest up2, no timeouts)
+22:58:09 === primary drops one packet
+22:58:11   seq: answered_by={'up2': 1, 'up1': 14} received={'up1': 15, 'up2': 1, 'up3': 0} p50=6ms max=384ms first5=[384, 5, 7, 6, 5]
+22:58:12   rtt: answered_by={'up3': 6, 'up2': 9} received={'up1': 1, 'up2': 9, 'up3': 6} p50=6ms max=391ms first5=[391, 6, 6, 6, 6]
+22:58:12   seq PASS (expected exactly {'up1': 14, 'up2': 1})
+22:58:12 === primary drops two packets
+22:58:14   seq: answered_by={'up2': 2, 'up1': 13} received={'up1': 15, 'up2': 2, 'up3': 0} p50=6ms max=769ms first5=[388, 769, 6, 7, 6]
+22:58:15   rtt: answered_by={'up2': 7, 'up3': 8} received={'up1': 1, 'up2': 7, 'up3': 8} p50=6ms max=390ms first5=[3, 5, 390, 6, 5]
+22:58:15   seq PASS (expected exactly {'up1': 13, 'up2': 2})
+22:58:15 === primary down (no answer)
+22:58:19   seq: answered_by={'up2': 20} received={'up1': 3, 'up2': 20, 'up3': 0} p50=6ms max=1519ms first5=[390, 767, 1519, 6, 6]
+22:58:21   rtt: answered_by={'up2': 8, 'up3': 12} received={'up1': 1, 'up2': 8, 'up3': 12} p50=6ms max=387ms first5=[387, 6, 6, 4, 6]
+22:58:21   seq PASS (expected exactly {'up2': 20})
+22:58:21 === primary and first fallback down
+22:58:44   seq: answered_by={'up3': 14, 'TIMEOUT': 1} received={'up1': 3, 'up2': 3, 'up3': 15} p50=6ms max=20000ms first5=[772, 1530, 20000, 8, 6]
+22:58:47   rtt: answered_by={'up3': 15} received={'up1': 2, 'up2': 1, 'up3': 15} p50=6ms max=1542ms first5=[1542, 7, 6, 6, 7]
+22:58:47   seq FAIL (expected exactly {'up3': 15})
+22:58:47 === primary answers SERVFAIL
+22:58:48   seq: answered_by={'up2': 15} received={'up1': 15, 'up2': 15, 'up3': 0} p50=9ms max=10ms first5=[5, 6, 6, 10, 9]
+22:58:48   rtt: answered_by={'up2': 8, 'up3': 7} received={'up1': 7, 'up2': 8, 'up3': 7} p50=7ms max=13ms first5=[7, 13, 7, 7, 6]
+22:58:48   seq PASS (expected exactly {'up2': 15})
+22:58:48 === primary answers REFUSED
+22:58:49   seq: answered_by={'up2': 15} received={'up1': 15, 'up2': 15, 'up3': 0} p50=9ms max=10ms first5=[5, 6, 6, 10, 9]
+22:58:50   rtt: answered_by={'up3': 8, 'up2': 7} received={'up1': 9, 'up2': 7, 'up3': 8} p50=6ms max=13ms first5=[9, 6, 9, 9, 10]
+22:58:50   seq PASS (expected exactly {'up2': 15})
+22:58:50 === primary answers garbage
+22:58:54   seq: answered_by={'up2': 15} received={'up1': 3, 'up2': 15, 'up3': 0} p50=6ms max=1516ms first5=[387, 763, 1516, 6, 6]
+22:58:55   rtt: answered_by={'up3': 8, 'up2': 7} received={'up1': 1, 'up2': 7, 'up3': 8} p50=6ms max=389ms first5=[4, 6, 5, 5, 4]
+22:58:55   seq PASS (expected exactly {'up2': 15})
+22:58:55 === primary answers with wrong query id
+22:58:59   seq: answered_by={'up2': 15} received={'up1': 3, 'up2': 15, 'up3': 0} p50=6ms max=1513ms first5=[388, 766, 1513, 6, 6]
+22:59:00   rtt: answered_by={'up2': 10, 'up3': 5} received={'up1': 1, 'up2': 10, 'up3': 5} p50=6ms max=389ms first5=[4, 6, 389, 7, 7]
+22:59:00   seq PASS (expected exactly {'up2': 15})
+22:59:00 === primary recovers after outage
+22:59:03   primary down: {'up2': 10}
+22:59:03   primary restored, polling every 2s (infra-host-ttl is 30s)
+22:59:32   back on primary after: 28.2s (15 polls)
+22:59:32   after recovery: {'up1': 10}
+22:59:32   seq PASS
+
+scenario                                   seq answered_by        rtt answered_by              result
+healthy, primary slower (150ms)            {'up1': 30}            {'up1': 6, 'up2': 11, 'up3': PASS
+primary slow but alive (800ms)             {'up2': 2, 'up1': 13}  {'up3': 9, 'up2': 6}         PASS
+primary drops one packet                   {'up2': 1, 'up1': 14}  {'up3': 6, 'up2': 9}         PASS
+primary drops two packets                  {'up2': 2, 'up1': 13}  {'up2': 7, 'up3': 8}         PASS
+primary down (no answer)                   {'up2': 20}            {'up2': 8, 'up3': 12}        PASS
+primary and first fallback down            {'up3': 14, 'TIMEOUT': {'up3': 15}                  FAIL
+primary answers SERVFAIL                   {'up2': 15}            {'up2': 8, 'up3': 7}         PASS
+primary answers REFUSED                    {'up2': 15}            {'up3': 8, 'up2': 7}         PASS
+primary answers garbage                    {'up2': 15}            {'up3': 8, 'up2': 7}         PASS
+primary answers with wrong query id        {'up2': 15}            {'up2': 10, 'up3': 5}        PASS
+primary recovers after outage              {'up1': 10}            -                            PASS
+
+10/11 passed
+
+outbound queries captured from unbound-seq:
+ 123 172.28.0.11
+ 112 172.28.0.12
+  15 172.28.0.13
+outbound queries captured from unbound-rtt:
+  30 172.28.0.11
+  74 172.28.0.12
+  91 172.28.0.13
+artifacts in ./out: results.json, unbound-*.log, unbound-*.pcap, upstreams.log
+run.sh exit 1

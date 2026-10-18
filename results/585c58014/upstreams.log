@@ -1,0 +1,552 @@
+up1-1  | 22:57:44.646 up1 listening udp/53, answers 192.0.2.11
+up1-1  | 22:57:46.920 up1 control: mode=ok delay=150ms
+up1-1  | 22:57:46.921 up1 control: mode=ok delay=150ms
+up1-1  | 22:57:46.923 up1 recv from 172.28.0.2 id=25070 healthy,239-seq-0-633812328.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:47.137 up1 recv from 172.28.0.2 id=29194 healthy,239-seq-1-59808509.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:47.357 up1 recv from 172.28.0.2 id=46480 healthy,239-seq-2-125507587.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:47.571 up1 recv from 172.28.0.2 id=15860 healthy,239-seq-3-763120890.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:47.783 up1 recv from 172.28.0.2 id=38611 healthy,239-seq-4-595713226.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:47.995 up1 recv from 172.28.0.2 id=2027 healthy,239-seq-5-624015357.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:48.205 up1 recv from 172.28.0.2 id=63255 healthy,239-seq-6-140799148.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:48.419 up1 recv from 172.28.0.2 id=5440 healthy,239-seq-7-305093831.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:48.629 up1 recv from 172.28.0.2 id=57406 healthy,239-seq-8-630008212.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:48.845 up1 recv from 172.28.0.2 id=37896 healthy,239-seq-9-293998297.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:49.061 up1 recv from 172.28.0.2 id=51104 healthy,239-seq-10-600040192.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:49.277 up1 recv from 172.28.0.2 id=29610 healthy,239-seq-11-499314838.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:49.494 up1 recv from 172.28.0.2 id=13469 healthy,239-seq-12-1021292933.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:49.706 up1 recv from 172.28.0.2 id=57901 healthy,239-seq-13-799478456.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:49.915 up1 recv from 172.28.0.2 id=11260 healthy,239-seq-14-1047356398.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:50.131 up1 recv from 172.28.0.2 id=43772 healthy,239-seq-15-200142372.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:50.344 up1 recv from 172.28.0.2 id=19945 healthy,239-seq-16-145972301.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:50.556 up1 recv from 172.28.0.2 id=15377 healthy,239-seq-17-23093873.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:50.772 up1 recv from 172.28.0.2 id=32587 healthy,239-seq-18-542123167.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:50.990 up1 recv from 172.28.0.2 id=17731 healthy,239-seq-19-661240326.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:51.210 up1 recv from 172.28.0.2 id=19313 healthy,239-seq-20-931189776.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:51.422 up1 recv from 172.28.0.2 id=39983 healthy,239-seq-21-555268408.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:51.637 up1 recv from 172.28.0.2 id=43525 healthy,239-seq-22-668068330.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:51.856 up1 recv from 172.28.0.2 id=18648 healthy,239-seq-23-1035428490.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:52.074 up1 recv from 172.28.0.2 id=19373 healthy,239-seq-24-706366626.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:52.285 up1 recv from 172.28.0.2 id=41857 healthy,239-seq-25-529793168.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:52.499 up1 recv from 172.28.0.2 id=17149 healthy,239-seq-26-358187548.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:52.715 up1 recv from 172.28.0.2 id=15010 healthy,239-seq-27-80047019.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:52.935 up1 recv from 172.28.0.2 id=18941 healthy,239-seq-28-693684422.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:53.153 up1 recv from 172.28.0.2 id=17607 healthy,239-seq-29-278568931.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:53.365 up1 control: mode=ok delay=150ms
+up1-1  | 22:57:53.367 up1 recv from 172.28.0.3 id=33076 healthy,239-rtt-0-1069983992.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:53.579 up1 recv from 172.28.0.3 id=2553 healthy,239-rtt-1-749607427.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:53.853 up1 recv from 172.28.0.3 id=31738 healthy,239-rtt-3-625628232.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:54.128 up1 recv from 172.28.0.3 id=27955 healthy,239-rtt-5-407172989.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:54.399 up1 recv from 172.28.0.3 id=25109 healthy,239-rtt-7-424061230.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:54.674 up1 recv from 172.28.0.3 id=5456 healthy,239-rtt-9-1031686963.example. type=1 mode=ok delay=150ms
+up1-1  | 22:57:56.101 up1 control: mode=ok delay=800ms
+up1-1  | 22:57:56.103 up1 control: mode=ok delay=800ms
+up1-1  | 22:57:56.105 up1 recv from 172.28.0.2 id=23843 primary371-seq-0-263111018.example. type=1 mode=ok delay=800ms
+up1-1  | 22:57:56.550 up1 recv from 172.28.0.2 id=45290 primary371-seq-1-874727646.example. type=1 mode=ok delay=800ms
+up1-1  | 22:57:57.369 up1 recv from 172.28.0.2 id=63881 primary371-seq-2-614289790.example. type=1 mode=ok delay=800ms
+up1-1  | 22:57:58.233 up1 recv from 172.28.0.2 id=6091 primary371-seq-3-677379933.example. type=1 mode=ok delay=800ms
+up1-1  | 22:57:59.090 up1 recv from 172.28.0.2 id=45356 primary371-seq-4-539712008.example. type=1 mode=ok delay=800ms
+up1-1  | 22:57:59.957 up1 recv from 172.28.0.2 id=16016 primary371-seq-5-473691211.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:00.823 up1 recv from 172.28.0.2 id=6694 primary371-seq-6-140848945.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:01.690 up1 recv from 172.28.0.2 id=54322 primary371-seq-7-561839895.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:02.559 up1 recv from 172.28.0.2 id=64511 primary371-seq-8-752687094.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:03.419 up1 recv from 172.28.0.2 id=58507 primary371-seq-9-1048327883.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:04.285 up1 recv from 172.28.0.2 id=33024 primary371-seq-10-521286302.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:05.152 up1 recv from 172.28.0.2 id=1105 primary371-seq-11-391260422.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:06.016 up1 recv from 172.28.0.2 id=1798 primary371-seq-12-557403966.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:06.884 up1 recv from 172.28.0.2 id=29909 primary371-seq-13-286996495.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:07.750 up1 recv from 172.28.0.2 id=15992 primary371-seq-14-787045058.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:08.622 up1 control: mode=ok delay=800ms
+up1-1  | 22:58:08.753 up1 recv from 172.28.0.3 id=50152 primary371-rtt-2-281597316.example. type=1 mode=ok delay=800ms
+up1-1  | 22:58:09.956 up1 control: mode=dropn delay=0ms
+up1-1  | 22:58:09.957 up1 control: mode=dropn delay=0ms
+up1-1  | 22:58:09.960 up1 recv from 172.28.0.2 id=1248 primary467-seq-0-399250554.example. type=1 mode=drop
+up1-1  | 22:58:10.398 up1 recv from 172.28.0.2 id=16065 primary467-seq-1-207686345.example. type=1 mode=ok
+up1-1  | 22:58:10.460 up1 recv from 172.28.0.2 id=9289 primary467-seq-2-822235587.example. type=1 mode=ok
+up1-1  | 22:58:10.520 up1 recv from 172.28.0.2 id=2488 primary467-seq-3-354659989.example. type=1 mode=ok
+up1-1  | 22:58:10.581 up1 recv from 172.28.0.2 id=56689 primary467-seq-4-42991005.example. type=1 mode=ok
+up1-1  | 22:58:10.642 up1 recv from 172.28.0.2 id=30323 primary467-seq-5-323933750.example. type=1 mode=ok
+up1-1  | 22:58:10.699 up1 recv from 172.28.0.2 id=32115 primary467-seq-6-671760675.example. type=1 mode=ok
+up1-1  | 22:58:10.757 up1 recv from 172.28.0.2 id=40354 primary467-seq-7-492875520.example. type=1 mode=ok
+up1-1  | 22:58:10.814 up1 recv from 172.28.0.2 id=8724 primary467-seq-8-611365223.example. type=1 mode=ok
+up3-1  | 22:57:44.646 up3 listening udp/53, answers 192.0.2.13
+up1-1  | 22:58:10.876 up1 recv from 172.28.0.2 id=63264 primary467-seq-9-987071413.example. type=1 mode=ok
+up1-1  | 22:58:10.938 up1 recv from 172.28.0.2 id=20160 primary467-seq-10-970683897.example. type=1 mode=ok
+up1-1  | 22:58:10.997 up1 recv from 172.28.0.2 id=35536 primary467-seq-11-240187893.example. type=1 mode=ok
+up1-1  | 22:58:11.058 up1 recv from 172.28.0.2 id=49289 primary467-seq-12-108480641.example. type=1 mode=ok
+up1-1  | 22:58:11.120 up1 recv from 172.28.0.2 id=42172 primary467-seq-13-431002086.example. type=1 mode=ok
+up1-1  | 22:58:11.181 up1 recv from 172.28.0.2 id=18832 primary467-seq-14-594694712.example. type=1 mode=ok
+up1-1  | 22:58:11.240 up1 control: mode=dropn delay=0ms
+up1-1  | 22:58:11.245 up1 recv from 172.28.0.3 id=60105 primary467-rtt-0-39428483.example. type=1 mode=drop
+up1-1  | 22:58:12.560 up1 control: mode=dropn delay=0ms
+up3-1  | 22:57:46.921 up3 control: mode=ok delay=0ms
+up3-1  | 22:57:46.922 up3 control: mode=ok delay=0ms
+up3-1  | 22:57:53.366 up3 control: mode=ok delay=0ms
+up2-1  | 22:57:44.646 up2 listening udp/53, answers 192.0.2.12
+up2-1  | 22:57:46.921 up2 control: mode=ok delay=0ms
+up2-1  | 22:57:46.921 up2 control: mode=ok delay=0ms
+up2-1  | 22:57:53.365 up2 control: mode=ok delay=0ms
+up3-1  | 22:57:54.069 up3 recv from 172.28.0.3 id=28583 healthy,239-rtt-4-440902717.example. type=1 mode=ok
+up3-1  | 22:57:54.950 up3 recv from 172.28.0.3 id=18780 healthy,239-rtt-11-29367704.example. type=1 mode=ok
+up3-1  | 22:57:55.008 up3 recv from 172.28.0.3 id=63811 healthy,239-rtt-12-700563.example. type=1 mode=ok
+up3-1  | 22:57:55.251 up3 recv from 172.28.0.3 id=10806 healthy,239-rtt-16-168850155.example. type=1 mode=ok
+up3-1  | 22:57:55.309 up3 recv from 172.28.0.3 id=49369 healthy,239-rtt-17-25002558.example. type=1 mode=ok
+up3-1  | 22:57:55.483 up3 recv from 172.28.0.3 id=22665 healthy,239-rtt-20-640772005.example. type=1 mode=ok
+up3-1  | 22:57:55.538 up3 recv from 172.28.0.3 id=37420 healthy,239-rtt-21-11049529.example. type=1 mode=ok
+up3-1  | 22:57:55.598 up3 recv from 172.28.0.3 id=31046 healthy,239-rtt-22-477562181.example. type=1 mode=ok
+up3-1  | 22:57:55.716 up3 recv from 172.28.0.3 id=22667 healthy,239-rtt-24-598227104.example. type=1 mode=ok
+up3-1  | 22:57:55.777 up3 recv from 172.28.0.3 id=44757 healthy,239-rtt-25-1052305591.example. type=1 mode=ok
+up3-1  | 22:57:55.836 up3 recv from 172.28.0.3 id=61689 healthy,239-rtt-26-891092157.example. type=1 mode=ok
+up3-1  | 22:57:55.894 up3 recv from 172.28.0.3 id=51317 healthy,239-rtt-27-844000392.example. type=1 mode=ok
+up3-1  | 22:57:55.953 up3 recv from 172.28.0.3 id=42892 healthy,239-rtt-28-325596579.example. type=1 mode=ok
+up3-1  | 22:57:56.102 up3 control: mode=ok delay=0ms
+up2-1  | 22:57:53.791 up2 recv from 172.28.0.3 id=39922 healthy,239-rtt-2-822977544.example. type=1 mode=ok
+up2-1  | 22:57:54.340 up2 recv from 172.28.0.3 id=37044 healthy,239-rtt-6-490265569.example. type=1 mode=ok
+up2-1  | 22:57:54.613 up2 recv from 172.28.0.3 id=60080 healthy,239-rtt-8-229564702.example. type=1 mode=ok
+up1-1  | 22:58:12.561 up1 control: mode=dropn delay=0ms
+up1-1  | 22:58:12.564 up1 recv from 172.28.0.2 id=46878 primary150-seq-0-1059625007.example. type=1 mode=drop
+up1-1  | 22:58:13.012 up1 recv from 172.28.0.2 id=50282 primary150-seq-1-905491383.example. type=1 mode=drop
+up1-1  | 22:58:13.833 up1 recv from 172.28.0.2 id=36568 primary150-seq-2-382015763.example. type=1 mode=ok
+up1-1  | 22:58:13.892 up1 recv from 172.28.0.2 id=58746 primary150-seq-3-897251438.example. type=1 mode=ok
+up2-1  | 22:57:54.891 up2 recv from 172.28.0.3 id=15800 healthy,239-rtt-10-1064990356.example. type=1 mode=ok
+up2-1  | 22:57:55.068 up2 recv from 172.28.0.3 id=60537 healthy,239-rtt-13-551246533.example. type=1 mode=ok
+up2-1  | 22:57:55.130 up2 recv from 172.28.0.3 id=43088 healthy,239-rtt-14-835630316.example. type=1 mode=ok
+up2-1  | 22:57:55.190 up2 recv from 172.28.0.3 id=35694 healthy,239-rtt-15-899428586.example. type=1 mode=ok
+up2-1  | 22:57:55.367 up2 recv from 172.28.0.3 id=11132 healthy,239-rtt-18-1017000129.example. type=1 mode=ok
+up1-1  | 22:58:13.951 up1 recv from 172.28.0.2 id=58853 primary150-seq-4-380515077.example. type=1 mode=ok
+up1-1  | 22:58:14.009 up1 recv from 172.28.0.2 id=57124 primary150-seq-5-539361490.example. type=1 mode=ok
+up1-1  | 22:58:14.068 up1 recv from 172.28.0.2 id=50119 primary150-seq-6-982678450.example. type=1 mode=ok
+up1-1  | 22:58:14.130 up1 recv from 172.28.0.2 id=15771 primary150-seq-7-679171748.example. type=1 mode=ok
+up1-1  | 22:58:14.192 up1 recv from 172.28.0.2 id=29075 primary150-seq-8-81161458.example. type=1 mode=ok
+up2-1  | 22:57:55.423 up2 recv from 172.28.0.3 id=59992 healthy,239-rtt-19-296146775.example. type=1 mode=ok
+up2-1  | 22:57:55.661 up2 recv from 172.28.0.3 id=2802 healthy,239-rtt-23-902334207.example. type=1 mode=ok
+up2-1  | 22:57:56.013 up2 recv from 172.28.0.3 id=2286 healthy,239-rtt-29-184686670.example. type=1 mode=ok
+up2-1  | 22:57:56.102 up2 control: mode=ok delay=0ms
+up1-1  | 22:58:14.251 up1 recv from 172.28.0.2 id=56509 primary150-seq-9-962516616.example. type=1 mode=ok
+up1-1  | 22:58:14.312 up1 recv from 172.28.0.2 id=10066 primary150-seq-10-335575023.example. type=1 mode=ok
+up1-1  | 22:58:14.374 up1 recv from 172.28.0.2 id=31646 primary150-seq-11-198454304.example. type=1 mode=ok
+up1-1  | 22:58:14.433 up1 recv from 172.28.0.2 id=18458 primary150-seq-12-459550017.example. type=1 mode=ok
+up1-1  | 22:58:14.495 up1 recv from 172.28.0.2 id=27693 primary150-seq-13-919358838.example. type=1 mode=ok
+up1-1  | 22:58:14.555 up1 recv from 172.28.0.2 id=30954 primary150-seq-14-90555372.example. type=1 mode=ok
+up1-1  | 22:58:14.613 up1 control: mode=dropn delay=0ms
+up1-1  | 22:58:14.732 up1 recv from 172.28.0.3 id=32552 primary150-rtt-2-401028745.example. type=1 mode=drop
+up1-1  | 22:58:15.934 up1 control: mode=drop delay=0ms
+up1-1  | 22:58:15.935 up1 control: mode=drop delay=0ms
+up1-1  | 22:58:15.938 up1 recv from 172.28.0.2 id=3911 primary272-seq-0-488982152.example. type=1 mode=drop
+up1-1  | 22:58:16.386 up1 recv from 172.28.0.2 id=46765 primary272-seq-1-878265292.example. type=1 mode=drop
+up1-1  | 22:58:17.207 up1 recv from 172.28.0.2 id=35849 primary272-seq-2-482112727.example. type=1 mode=drop
+up2-1  | 22:57:56.103 up2 control: mode=ok delay=0ms
+up2-1  | 22:57:56.488 up2 recv from 172.28.0.2 id=32876 primary371-seq-0-263111018.example. type=1 mode=ok
+up1-1  | 22:58:19.802 up1 control: mode=drop delay=0ms
+up1-1  | 22:58:19.806 up1 recv from 172.28.0.3 id=16101 primary272-rtt-0-870260644.example. type=1 mode=drop
+up1-1  | 22:58:21.435 up1 control: mode=drop delay=0ms
+up1-1  | 22:58:21.437 up1 control: mode=drop delay=0ms
+up1-1  | 22:58:21.440 up1 recv from 172.28.0.2 id=18040 primary918-seq-0-67355910.example. type=1 mode=drop
+up1-1  | 22:58:22.271 up1 recv from 172.28.0.2 id=63588 primary918-seq-1-336144309.example. type=1 mode=drop
+up1-1  | 22:58:23.854 up1 recv from 172.28.0.2 id=1413 primary918-seq-2-285443043.example. type=1 mode=drop
+up1-1  | 22:58:44.656 up1 control: mode=drop delay=0ms
+up2-1  | 22:57:57.309 up2 recv from 172.28.0.2 id=40264 primary371-seq-1-874727646.example. type=1 mode=ok
+up2-1  | 22:58:08.623 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:09.379 up2 recv from 172.28.0.3 id=36171 primary371-rtt-6-54867098.example. type=1 mode=ok
+up2-1  | 22:58:09.500 up2 recv from 172.28.0.3 id=49993 primary371-rtt-8-580073978.example. type=1 mode=ok
+up2-1  | 22:58:09.563 up2 recv from 172.28.0.3 id=57678 primary371-rtt-9-612313439.example. type=1 mode=ok
+up3-1  | 22:57:56.104 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:08.624 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:08.627 up3 recv from 172.28.0.3 id=33356 primary371-rtt-0-408362772.example. type=1 mode=ok
+up3-1  | 22:58:08.691 up3 recv from 172.28.0.3 id=60250 primary371-rtt-1-712716391.example. type=1 mode=ok
+up3-1  | 22:58:09.136 up3 recv from 172.28.0.3 id=22326 primary371-rtt-2-281597316.example. type=1 mode=ok
+up3-1  | 22:58:09.199 up3 recv from 172.28.0.3 id=15563 primary371-rtt-3-697736242.example. type=1 mode=ok
+up3-1  | 22:58:09.259 up3 recv from 172.28.0.3 id=20193 primary371-rtt-4-682236388.example. type=1 mode=ok
+up2-1  | 22:58:09.624 up2 recv from 172.28.0.3 id=21873 primary371-rtt-10-578091600.example. type=1 mode=ok
+up2-1  | 22:58:09.806 up2 recv from 172.28.0.3 id=54676 primary371-rtt-13-1011629464.example. type=1 mode=ok
+up3-1  | 22:58:09.320 up3 recv from 172.28.0.3 id=5819 primary371-rtt-5-1056405930.example. type=1 mode=ok
+up3-1  | 22:58:09.440 up3 recv from 172.28.0.3 id=33457 primary371-rtt-7-187538432.example. type=1 mode=ok
+up3-1  | 22:58:09.687 up3 recv from 172.28.0.3 id=44567 primary371-rtt-11-876571068.example. type=1 mode=ok
+up3-1  | 22:58:09.745 up3 recv from 172.28.0.3 id=46497 primary371-rtt-12-212380722.example. type=1 mode=ok
+up3-1  | 22:58:09.956 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:09.958 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:11.242 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:11.631 up3 recv from 172.28.0.3 id=57519 primary467-rtt-0-39428483.example. type=1 mode=ok
+up3-1  | 22:58:11.690 up3 recv from 172.28.0.3 id=40772 primary467-rtt-1-203653538.example. type=1 mode=ok
+up2-1  | 22:58:09.868 up2 recv from 172.28.0.3 id=1279 primary371-rtt-14-435908880.example. type=1 mode=ok
+up2-1  | 22:58:09.956 up2 control: mode=ok delay=0ms
+up3-1  | 22:58:12.224 up3 recv from 172.28.0.3 id=7139 primary467-rtt-10-287911008.example. type=1 mode=ok
+up3-1  | 22:58:12.286 up3 recv from 172.28.0.3 id=16022 primary467-rtt-11-723078915.example. type=1 mode=ok
+up3-1  | 22:58:12.347 up3 recv from 172.28.0.3 id=64305 primary467-rtt-12-300644565.example. type=1 mode=ok
+up3-1  | 22:58:12.409 up3 recv from 172.28.0.3 id=8690 primary467-rtt-13-530218438.example. type=1 mode=ok
+up3-1  | 22:58:12.561 up3 control: mode=ok delay=0ms
+up2-1  | 22:58:09.957 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:10.340 up2 recv from 172.28.0.2 id=24817 primary467-seq-0-399250554.example. type=1 mode=ok
+up2-1  | 22:58:11.241 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:11.750 up2 recv from 172.28.0.3 id=17305 primary467-rtt-2-55226245.example. type=1 mode=ok
+up2-1  | 22:58:11.811 up2 recv from 172.28.0.3 id=44492 primary467-rtt-3-104117907.example. type=1 mode=ok
+up2-1  | 22:58:11.873 up2 recv from 172.28.0.3 id=59702 primary467-rtt-4-8817979.example. type=1 mode=ok
+up2-1  | 22:58:11.934 up2 recv from 172.28.0.3 id=15658 primary467-rtt-5-42642414.example. type=1 mode=ok
+up2-1  | 22:58:11.990 up2 recv from 172.28.0.3 id=10819 primary467-rtt-6-145794438.example. type=1 mode=ok
+up2-1  | 22:58:12.051 up2 recv from 172.28.0.3 id=21714 primary467-rtt-7-1032287271.example. type=1 mode=ok
+up1-1  | 22:58:44.661 up1 recv from 172.28.0.3 id=54485 primary918-rtt-0-918710005.example. type=1 mode=drop
+up2-1  | 22:58:12.113 up2 recv from 172.28.0.3 id=3585 primary467-rtt-8-47172661.example. type=1 mode=ok
+up2-1  | 22:58:12.169 up2 recv from 172.28.0.3 id=32026 primary467-rtt-9-150740482.example. type=1 mode=ok
+up2-1  | 22:58:12.470 up2 recv from 172.28.0.3 id=30517 primary467-rtt-14-807026569.example. type=1 mode=ok
+up2-1  | 22:58:12.560 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:12.562 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:12.949 up2 recv from 172.28.0.2 id=64925 primary150-seq-0-1059625007.example. type=1 mode=ok
+up2-1  | 22:58:13.774 up2 recv from 172.28.0.2 id=30408 primary150-seq-1-905491383.example. type=1 mode=ok
+up2-1  | 22:58:14.614 up2 control: mode=ok delay=0ms
+up3-1  | 22:58:12.562 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:14.614 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:15.118 up3 recv from 172.28.0.3 id=15413 primary150-rtt-2-401028745.example. type=1 mode=ok
+up3-1  | 22:58:15.178 up3 recv from 172.28.0.3 id=2275 primary150-rtt-3-508012316.example. type=1 mode=ok
+up3-1  | 22:58:15.235 up3 recv from 172.28.0.3 id=12045 primary150-rtt-4-1052018276.example. type=1 mode=ok
+up3-1  | 22:58:15.357 up3 recv from 172.28.0.3 id=14315 primary150-rtt-6-221358648.example. type=1 mode=ok
+up1-1  | 22:58:45.434 up1 recv from 172.28.0.3 id=20123 primary918-rtt-0-918710005.example. type=1 mode=drop
+up1-1  | 22:58:47.115 up1 control: mode=servfail delay=0ms
+up1-1  | 22:58:47.117 up1 control: mode=servfail delay=0ms
+up1-1  | 22:58:47.119 up1 recv from 172.28.0.2 id=3707 primary968-seq-0-719053618.example. type=1 mode=servfail
+up1-1  | 22:58:47.180 up1 recv from 172.28.0.2 id=6996 primary968-seq-1-343411082.example. type=1 mode=servfail
+up3-1  | 22:58:15.481 up3 recv from 172.28.0.3 id=34622 primary150-rtt-8-623658768.example. type=1 mode=ok
+up3-1  | 22:58:15.543 up3 recv from 172.28.0.3 id=57649 primary150-rtt-9-545112966.example. type=1 mode=ok
+up1-1  | 22:58:47.243 up1 recv from 172.28.0.2 id=5259 primary968-seq-2-1022723538.example. type=1 mode=servfail
+up1-1  | 22:58:47.307 up1 recv from 172.28.0.2 id=31572 primary968-seq-3-75049338.example. type=1 mode=servfail
+up1-1  | 22:58:47.370 up1 recv from 172.28.0.2 id=17169 primary968-seq-4-550100431.example. type=1 mode=servfail
+up1-1  | 22:58:47.436 up1 recv from 172.28.0.2 id=47251 primary968-seq-5-352738045.example. type=1 mode=servfail
+up1-1  | 22:58:47.499 up1 recv from 172.28.0.2 id=23640 primary968-seq-6-23926512.example. type=1 mode=servfail
+up2-1  | 22:58:14.617 up2 recv from 172.28.0.3 id=11 primary150-rtt-0-909670700.example. type=1 mode=ok
+up2-1  | 22:58:14.675 up2 recv from 172.28.0.3 id=19675 primary150-rtt-1-557374561.example. type=1 mode=ok
+up1-1  | 22:58:47.559 up1 recv from 172.28.0.2 id=63448 primary968-seq-7-1073406769.example. type=1 mode=servfail
+up1-1  | 22:58:47.622 up1 recv from 172.28.0.2 id=18101 primary968-seq-8-810611045.example. type=1 mode=servfail
+up1-1  | 22:58:47.683 up1 recv from 172.28.0.2 id=4837 primary968-seq-9-997184471.example. type=1 mode=servfail
+up1-1  | 22:58:47.749 up1 recv from 172.28.0.2 id=36060 primary968-seq-10-281077681.example. type=1 mode=servfail
+up1-1  | 22:58:47.810 up1 recv from 172.28.0.2 id=34181 primary968-seq-11-426635307.example. type=1 mode=servfail
+up3-1  | 22:58:15.666 up3 recv from 172.28.0.3 id=46561 primary150-rtt-11-396231742.example. type=1 mode=ok
+up3-1  | 22:58:15.783 up3 recv from 172.28.0.3 id=8884 primary150-rtt-13-45029315.example. type=1 mode=ok
+up3-1  | 22:58:15.935 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:15.936 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:19.803 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:20.250 up3 recv from 172.28.0.3 id=61935 primary272-rtt-1-1047383773.example. type=1 mode=ok
+up2-1  | 22:58:15.295 up2 recv from 172.28.0.3 id=18939 primary150-rtt-5-99063806.example. type=1 mode=ok
+up2-1  | 22:58:15.420 up2 recv from 172.28.0.3 id=17615 primary150-rtt-7-875197007.example. type=1 mode=ok
+up2-1  | 22:58:15.604 up2 recv from 172.28.0.3 id=47077 primary150-rtt-10-549695431.example. type=1 mode=ok
+up2-1  | 22:58:15.722 up2 recv from 172.28.0.3 id=18931 primary150-rtt-12-838749587.example. type=1 mode=ok
+up2-1  | 22:58:15.846 up2 recv from 172.28.0.3 id=25722 primary150-rtt-14-603837652.example. type=1 mode=ok
+up3-1  | 22:58:20.368 up3 recv from 172.28.0.3 id=25531 primary272-rtt-3-70782267.example. type=1 mode=ok
+up3-1  | 22:58:20.427 up3 recv from 172.28.0.3 id=61492 primary272-rtt-4-421653426.example. type=1 mode=ok
+up3-1  | 22:58:20.545 up3 recv from 172.28.0.3 id=19768 primary272-rtt-6-655687381.example. type=1 mode=ok
+up3-1  | 22:58:20.668 up3 recv from 172.28.0.3 id=3655 primary272-rtt-8-716760197.example. type=1 mode=ok
+up3-1  | 22:58:20.789 up3 recv from 172.28.0.3 id=12754 primary272-rtt-10-295050054.example. type=1 mode=ok
+up3-1  | 22:58:20.850 up3 recv from 172.28.0.3 id=58576 primary272-rtt-11-272233485.example. type=1 mode=ok
+up3-1  | 22:58:20.972 up3 recv from 172.28.0.3 id=14837 primary272-rtt-13-977228959.example. type=1 mode=ok
+up3-1  | 22:58:21.034 up3 recv from 172.28.0.3 id=63737 primary272-rtt-14-603077458.example. type=1 mode=ok
+up3-1  | 22:58:21.221 up3 recv from 172.28.0.3 id=47794 primary272-rtt-17-670363280.example. type=1 mode=ok
+up3-1  | 22:58:21.283 up3 recv from 172.28.0.3 id=8135 primary272-rtt-18-497141617.example. type=1 mode=ok
+up3-1  | 22:58:21.345 up3 recv from 172.28.0.3 id=42784 primary272-rtt-19-1066410348.example. type=1 mode=ok
+up3-1  | 22:58:21.436 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:21.438 up3 control: mode=ok delay=0ms
+up1-1  | 22:58:47.875 up1 recv from 172.28.0.2 id=56786 primary968-seq-12-3274586.example. type=1 mode=servfail
+up1-1  | 22:58:47.935 up1 recv from 172.28.0.2 id=54323 primary968-seq-13-25799817.example. type=1 mode=servfail
+up3-1  | 22:58:22.208 up3 recv from 172.28.0.2 id=33107 primary918-seq-0-67355910.example. type=1 mode=ok
+up3-1  | 22:58:23.795 up3 recv from 172.28.0.2 id=1292 primary918-seq-1-336144309.example. type=1 mode=ok
+up3-1  | 22:58:26.883 up3 recv from 172.28.0.2 id=15568 primary918-seq-2-285443043.example. type=1 mode=ok
+up3-1  | 22:58:43.934 up3 recv from 172.28.0.2 id=25197 primary918-seq-3-1018696794.example. type=1 mode=ok
+up3-1  | 22:58:43.996 up3 recv from 172.28.0.2 id=18267 primary918-seq-4-696672886.example. type=1 mode=ok
+up1-1  | 22:58:47.996 up1 recv from 172.28.0.2 id=50967 primary968-seq-14-443564930.example. type=1 mode=servfail
+up1-1  | 22:58:48.057 up1 control: mode=servfail delay=0ms
+up1-1  | 22:58:48.061 up1 recv from 172.28.0.3 id=42237 primary968-rtt-0-826200837.example. type=1 mode=servfail
+up2-1  | 22:58:15.934 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:15.936 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:16.325 up2 recv from 172.28.0.2 id=60997 primary272-seq-0-488982152.example. type=1 mode=ok
+up2-1  | 22:58:17.148 up2 recv from 172.28.0.2 id=3708 primary272-seq-1-878265292.example. type=1 mode=ok
+up2-1  | 22:58:18.719 up2 recv from 172.28.0.2 id=17060 primary272-seq-2-482112727.example. type=1 mode=ok
+up2-1  | 22:58:18.781 up2 recv from 172.28.0.2 id=47006 primary272-seq-3-175582490.example. type=1 mode=ok
+up2-1  | 22:58:18.843 up2 recv from 172.28.0.2 id=35155 primary272-seq-4-172829736.example. type=1 mode=ok
+up1-1  | 22:58:48.123 up1 recv from 172.28.0.3 id=44811 primary968-rtt-1-931074991.example. type=1 mode=servfail
+up1-1  | 22:58:48.126 up1 recv from 172.28.0.3 id=63592 primary968-rtt-1-931074991.example. type=1 mode=servfail
+up1-1  | 22:58:48.373 up1 recv from 172.28.0.3 id=39612 primary968-rtt-5-53352421.example. type=1 mode=servfail
+up1-1  | 22:58:48.675 up1 recv from 172.28.0.3 id=38119 primary968-rtt-10-545990679.example. type=1 mode=servfail
+up1-1  | 22:58:48.679 up1 recv from 172.28.0.3 id=59544 primary968-rtt-10-545990679.example. type=1 mode=servfail
+up1-1  | 22:58:48.864 up1 recv from 172.28.0.3 id=32214 primary968-rtt-13-726627272.example. type=1 mode=servfail
+up1-1  | 22:58:49.018 up1 control: mode=refused delay=0ms
+up1-1  | 22:58:49.019 up1 control: mode=refused delay=0ms
+up1-1  | 22:58:49.022 up1 recv from 172.28.0.2 id=61453 primary476-seq-0-785904662.example. type=1 mode=refused
+up2-1  | 22:58:18.901 up2 recv from 172.28.0.2 id=46116 primary272-seq-5-914881567.example. type=1 mode=ok
+up2-1  | 22:58:18.964 up2 recv from 172.28.0.2 id=42448 primary272-seq-6-554124824.example. type=1 mode=ok
+up2-1  | 22:58:19.023 up2 recv from 172.28.0.2 id=8382 primary272-seq-7-43533874.example. type=1 mode=ok
+up2-1  | 22:58:19.087 up2 recv from 172.28.0.2 id=59584 primary272-seq-8-973183551.example. type=1 mode=ok
+up2-1  | 22:58:19.145 up2 recv from 172.28.0.2 id=41567 primary272-seq-9-412491110.example. type=1 mode=ok
+up2-1  | 22:58:19.202 up2 recv from 172.28.0.2 id=40871 primary272-seq-10-600976091.example. type=1 mode=ok
+up2-1  | 22:58:19.262 up2 recv from 172.28.0.2 id=27066 primary272-seq-11-634756965.example. type=1 mode=ok
+up2-1  | 22:58:19.323 up2 recv from 172.28.0.2 id=26785 primary272-seq-12-42023075.example. type=1 mode=ok
+up2-1  | 22:58:19.386 up2 recv from 172.28.0.2 id=7354 primary272-seq-13-80428208.example. type=1 mode=ok
+up2-1  | 22:58:19.444 up2 recv from 172.28.0.2 id=28343 primary272-seq-14-527177001.example. type=1 mode=ok
+up1-1  | 22:58:49.082 up1 recv from 172.28.0.2 id=64208 primary476-seq-1-104353624.example. type=1 mode=refused
+up1-1  | 22:58:49.144 up1 recv from 172.28.0.2 id=10105 primary476-seq-2-34865603.example. type=1 mode=refused
+up1-1  | 22:58:49.209 up1 recv from 172.28.0.2 id=50454 primary476-seq-3-1072883838.example. type=1 mode=refused
+up1-1  | 22:58:49.274 up1 recv from 172.28.0.2 id=40238 primary476-seq-4-975945481.example. type=1 mode=refused
+up2-1  | 22:58:19.506 up2 recv from 172.28.0.2 id=18366 primary272-seq-15-792102675.example. type=1 mode=ok
+up1-1  | 22:58:49.339 up1 recv from 172.28.0.2 id=55269 primary476-seq-5-190660237.example. type=1 mode=refused
+up1-1  | 22:58:49.402 up1 recv from 172.28.0.2 id=43382 primary476-seq-6-39396954.example. type=1 mode=refused
+up1-1  | 22:58:49.468 up1 recv from 172.28.0.2 id=52165 primary476-seq-7-979491764.example. type=1 mode=refused
+up1-1  | 22:58:49.530 up1 recv from 172.28.0.2 id=38649 primary476-seq-8-158946230.example. type=1 mode=refused
+up1-1  | 22:58:49.595 up1 recv from 172.28.0.2 id=6963 primary476-seq-9-555219795.example. type=1 mode=refused
+up1-1  | 22:58:49.660 up1 recv from 172.28.0.2 id=20677 primary476-seq-10-906318081.example. type=1 mode=refused
+up1-1  | 22:58:49.725 up1 recv from 172.28.0.2 id=8887 primary476-seq-11-473869513.example. type=1 mode=refused
+up1-1  | 22:58:49.787 up1 recv from 172.28.0.2 id=39062 primary476-seq-12-425659021.example. type=1 mode=refused
+up1-1  | 22:58:49.854 up1 recv from 172.28.0.2 id=40140 primary476-seq-13-1033884393.example. type=1 mode=refused
+up1-1  | 22:58:49.919 up1 recv from 172.28.0.2 id=30931 primary476-seq-14-91350501.example. type=1 mode=refused
+up1-1  | 22:58:49.985 up1 control: mode=refused delay=0ms
+up1-1  | 22:58:49.989 up1 recv from 172.28.0.3 id=18977 primary476-rtt-0-105799102.example. type=1 mode=refused
+up1-1  | 22:58:49.992 up1 recv from 172.28.0.3 id=64575 primary476-rtt-0-105799102.example. type=1 mode=refused
+up1-1  | 22:58:50.112 up1 recv from 172.28.0.3 id=28188 primary476-rtt-2-328464023.example. type=1 mode=refused
+up1-1  | 22:58:50.172 up1 recv from 172.28.0.3 id=36359 primary476-rtt-3-977317789.example. type=1 mode=refused
+up1-1  | 22:58:50.233 up1 recv from 172.28.0.3 id=11302 primary476-rtt-4-103432973.example. type=1 mode=refused
+up1-1  | 22:58:50.298 up1 recv from 172.28.0.3 id=53795 primary476-rtt-5-410789690.example. type=1 mode=refused
+up1-1  | 22:58:50.362 up1 recv from 172.28.0.3 id=22035 primary476-rtt-6-855643479.example. type=1 mode=refused
+up1-1  | 22:58:50.366 up1 recv from 172.28.0.3 id=3890 primary476-rtt-6-855643479.example. type=1 mode=refused
+up1-1  | 22:58:50.676 up1 recv from 172.28.0.3 id=30758 primary476-rtt-11-772965334.example. type=1 mode=refused
+up1-1  | 22:58:50.942 up1 control: mode=garbage delay=0ms
+up1-1  | 22:58:50.943 up1 control: mode=garbage delay=0ms
+up1-1  | 22:58:50.946 up1 recv from 172.28.0.2 id=37993 primary479-seq-0-39127083.example. type=1 mode=garbage
+up1-1  | 22:58:51.390 up1 recv from 172.28.0.2 id=39739 primary479-seq-1-937198037.example. type=1 mode=garbage
+up1-1  | 22:58:52.209 up1 recv from 172.28.0.2 id=40757 primary479-seq-2-664720668.example. type=1 mode=garbage
+up2-1  | 22:58:19.565 up2 recv from 172.28.0.2 id=8467 primary272-seq-16-139143029.example. type=1 mode=ok
+up2-1  | 22:58:19.623 up2 recv from 172.28.0.2 id=37295 primary272-seq-17-1000294072.example. type=1 mode=ok
+up2-1  | 22:58:19.682 up2 recv from 172.28.0.2 id=54841 primary272-seq-18-26321694.example. type=1 mode=ok
+up2-1  | 22:58:19.740 up2 recv from 172.28.0.2 id=58857 primary272-seq-19-208035506.example. type=1 mode=ok
+up2-1  | 22:58:19.802 up2 control: mode=ok delay=0ms
+up3-1  | 22:58:44.057 up3 recv from 172.28.0.2 id=38388 primary918-seq-5-184730004.example. type=1 mode=ok
+up3-1  | 22:58:44.119 up3 recv from 172.28.0.2 id=45717 primary918-seq-6-807896225.example. type=1 mode=ok
+up3-1  | 22:58:44.177 up3 recv from 172.28.0.2 id=52361 primary918-seq-7-144579152.example. type=1 mode=ok
+up3-1  | 22:58:44.239 up3 recv from 172.28.0.2 id=14610 primary918-seq-8-298068359.example. type=1 mode=ok
+up3-1  | 22:58:44.301 up3 recv from 172.28.0.2 id=8391 primary918-seq-9-818167423.example. type=1 mode=ok
+up2-1  | 22:58:20.189 up2 recv from 172.28.0.3 id=36954 primary272-rtt-0-870260644.example. type=1 mode=ok
+up2-1  | 22:58:20.311 up2 recv from 172.28.0.3 id=51196 primary272-rtt-2-16967877.example. type=1 mode=ok
+up2-1  | 22:58:20.484 up2 recv from 172.28.0.3 id=422 primary272-rtt-5-147592550.example. type=1 mode=ok
+up2-1  | 22:58:20.608 up2 recv from 172.28.0.3 id=53987 primary272-rtt-7-240033846.example. type=1 mode=ok
+up2-1  | 22:58:20.727 up2 recv from 172.28.0.3 id=19023 primary272-rtt-9-1042929373.example. type=1 mode=ok
+up1-1  | 22:58:54.509 up1 control: mode=garbage delay=0ms
+up1-1  | 22:58:54.866 up1 recv from 172.28.0.3 id=560 primary479-rtt-6-290096200.example. type=1 mode=garbage
+up1-1  | 22:58:55.816 up1 control: mode=wrongid delay=0ms
+up1-1  | 22:58:55.817 up1 control: mode=wrongid delay=0ms
+up1-1  | 22:58:55.820 up1 recv from 172.28.0.2 id=38305 primary60-seq-0-611128331.example. type=1 mode=wrongid
+up2-1  | 22:58:20.912 up2 recv from 172.28.0.3 id=32558 primary272-rtt-12-644138611.example. type=1 mode=ok
+up1-1  | 22:58:56.263 up1 recv from 172.28.0.2 id=25853 primary60-seq-1-794186528.example. type=1 mode=wrongid
+up2-1  | 22:58:21.096 up2 recv from 172.28.0.3 id=29908 primary272-rtt-15-508814648.example. type=1 mode=ok
+up2-1  | 22:58:21.159 up2 recv from 172.28.0.3 id=50752 primary272-rtt-16-964017230.example. type=1 mode=ok
+up3-1  | 22:58:44.363 up3 recv from 172.28.0.2 id=18684 primary918-seq-10-580962063.example. type=1 mode=ok
+up2-1  | 22:58:21.436 up2 control: mode=drop delay=0ms
+up2-1  | 22:58:21.437 up2 control: mode=drop delay=0ms
+up2-1  | 22:58:21.823 up2 recv from 172.28.0.2 id=23006 primary918-seq-0-67355910.example. type=1 mode=drop
+up1-1  | 22:58:57.083 up1 recv from 172.28.0.2 id=49360 primary60-seq-2-457881749.example. type=1 mode=wrongid
+up1-1  | 22:58:59.372 up1 control: mode=wrongid delay=0ms
+up1-1  | 22:58:59.498 up1 recv from 172.28.0.3 id=5459 primary60-rtt-2-546555971.example. type=1 mode=wrongid
+up1-1  | 22:59:00.695 up1 control: mode=drop delay=0ms
+up1-1  | 22:59:00.698 up1 recv from 172.28.0.2 id=32079 rec-down-seq-0-241962870.example. type=1 mode=drop
+up1-1  | 22:59:01.143 up1 recv from 172.28.0.2 id=61276 rec-down-seq-1-386836833.example. type=1 mode=drop
+up1-1  | 22:59:01.964 up1 recv from 172.28.0.2 id=54318 rec-down-seq-2-151179934.example. type=1 mode=drop
+up1-1  | 22:59:03.962 up1 control: mode=ok delay=0ms
+up1-1  | 22:59:32.124 up1 recv from 172.28.0.2 id=27046 rec-up-284445251.example. type=1 mode=ok
+up1-1  | 22:59:32.129 up1 recv from 172.28.0.2 id=36849 rec-after-seq-0-189628535.example. type=1 mode=ok
+up1-1  | 22:59:32.192 up1 recv from 172.28.0.2 id=41547 rec-after-seq-1-827191847.example. type=1 mode=ok
+up2-1  | 22:58:23.034 up2 recv from 172.28.0.2 id=49666 primary918-seq-1-336144309.example. type=1 mode=drop
+up2-1  | 22:58:25.367 up2 recv from 172.28.0.2 id=37426 primary918-seq-2-285443043.example. type=1 mode=drop
+up2-1  | 22:58:44.656 up2 control: mode=drop delay=0ms
+up2-1  | 22:58:45.048 up2 recv from 172.28.0.3 id=641 primary918-rtt-0-918710005.example. type=1 mode=drop
+up2-1  | 22:58:47.116 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:47.117 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:47.122 up2 recv from 172.28.0.2 id=56767 primary968-seq-0-719053618.example. type=1 mode=ok
+up2-1  | 22:58:47.183 up2 recv from 172.28.0.2 id=34061 primary968-seq-1-343411082.example. type=1 mode=ok
+up2-1  | 22:58:47.245 up2 recv from 172.28.0.2 id=23060 primary968-seq-2-1022723538.example. type=1 mode=ok
+up1-1  | 22:59:32.250 up1 recv from 172.28.0.2 id=29744 rec-after-seq-2-107279058.example. type=1 mode=ok
+up1-1  | 22:59:32.312 up1 recv from 172.28.0.2 id=24312 rec-after-seq-3-595116672.example. type=1 mode=ok
+up1-1  | 22:59:32.372 up1 recv from 172.28.0.2 id=45117 rec-after-seq-4-603560355.example. type=1 mode=ok
+up1-1  | 22:59:32.433 up1 recv from 172.28.0.2 id=38642 rec-after-seq-5-500154213.example. type=1 mode=ok
+up1-1  | 22:59:32.495 up1 recv from 172.28.0.2 id=17697 rec-after-seq-6-865648028.example. type=1 mode=ok
+up1-1  | 22:59:32.556 up1 recv from 172.28.0.2 id=53799 rec-after-seq-7-79735518.example. type=1 mode=ok
+up1-1  | 22:59:32.614 up1 recv from 172.28.0.2 id=19919 rec-after-seq-8-986529479.example. type=1 mode=ok
+up1-1  | 22:59:32.670 up1 recv from 172.28.0.2 id=15393 rec-after-seq-9-1049563067.example. type=1 mode=ok
+up2-1  | 22:58:47.311 up2 recv from 172.28.0.2 id=46885 primary968-seq-3-75049338.example. type=1 mode=ok
+up2-1  | 22:58:47.375 up2 recv from 172.28.0.2 id=5549 primary968-seq-4-550100431.example. type=1 mode=ok
+up2-1  | 22:58:47.439 up2 recv from 172.28.0.2 id=51556 primary968-seq-5-352738045.example. type=1 mode=ok
+up2-1  | 22:58:47.502 up2 recv from 172.28.0.2 id=28979 primary968-seq-6-23926512.example. type=1 mode=ok
+up2-1  | 22:58:47.563 up2 recv from 172.28.0.2 id=12599 primary968-seq-7-1073406769.example. type=1 mode=ok
+up2-1  | 22:58:47.626 up2 recv from 172.28.0.2 id=42468 primary968-seq-8-810611045.example. type=1 mode=ok
+up2-1  | 22:58:47.687 up2 recv from 172.28.0.2 id=34915 primary968-seq-9-997184471.example. type=1 mode=ok
+up2-1  | 22:58:47.752 up2 recv from 172.28.0.2 id=8298 primary968-seq-10-281077681.example. type=1 mode=ok
+up2-1  | 22:58:47.814 up2 recv from 172.28.0.2 id=19490 primary968-seq-11-426635307.example. type=1 mode=ok
+up2-1  | 22:58:47.878 up2 recv from 172.28.0.2 id=20824 primary968-seq-12-3274586.example. type=1 mode=ok
+up2-1  | 22:58:47.938 up2 recv from 172.28.0.2 id=34310 primary968-seq-13-25799817.example. type=1 mode=ok
+up2-1  | 22:58:47.999 up2 recv from 172.28.0.2 id=64974 primary968-seq-14-443564930.example. type=1 mode=ok
+up2-1  | 22:58:48.057 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:48.064 up2 recv from 172.28.0.3 id=16558 primary968-rtt-0-826200837.example. type=1 mode=ok
+up2-1  | 22:58:48.439 up2 recv from 172.28.0.3 id=46575 primary968-rtt-6-13190749.example. type=1 mode=ok
+up2-1  | 22:58:48.497 up2 recv from 172.28.0.3 id=41574 primary968-rtt-7-761040966.example. type=1 mode=ok
+up3-1  | 22:58:44.421 up3 recv from 172.28.0.2 id=64346 primary918-seq-11-947681562.example. type=1 mode=ok
+up3-1  | 22:58:44.479 up3 recv from 172.28.0.2 id=22592 primary918-seq-12-88343998.example. type=1 mode=ok
+up3-1  | 22:58:44.537 up3 recv from 172.28.0.2 id=49586 primary918-seq-13-645493168.example. type=1 mode=ok
+up3-1  | 22:58:44.596 up3 recv from 172.28.0.2 id=16977 primary918-seq-14-26215613.example. type=1 mode=ok
+up3-1  | 22:58:44.657 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:46.197 up3 recv from 172.28.0.3 id=55023 primary918-rtt-0-918710005.example. type=1 mode=ok
+up2-1  | 22:58:48.557 up2 recv from 172.28.0.3 id=18831 primary968-rtt-8-175905523.example. type=1 mode=ok
+up2-1  | 22:58:48.619 up2 recv from 172.28.0.3 id=55604 primary968-rtt-9-691925348.example. type=1 mode=ok
+up2-1  | 22:58:48.743 up2 recv from 172.28.0.3 id=25220 primary968-rtt-11-401887586.example. type=1 mode=ok
+up2-1  | 22:58:48.868 up2 recv from 172.28.0.3 id=29142 primary968-rtt-13-726627272.example. type=1 mode=ok
+up3-1  | 22:58:46.256 up3 recv from 172.28.0.3 id=16373 primary918-rtt-1-260374212.example. type=1 mode=ok
+up3-1  | 22:58:46.315 up3 recv from 172.28.0.3 id=44717 primary918-rtt-2-630680471.example. type=1 mode=ok
+up3-1  | 22:58:46.373 up3 recv from 172.28.0.3 id=41499 primary918-rtt-3-709232471.example. type=1 mode=ok
+up3-1  | 22:58:46.436 up3 recv from 172.28.0.3 id=11548 primary918-rtt-4-654998453.example. type=1 mode=ok
+up3-1  | 22:58:46.496 up3 recv from 172.28.0.3 id=22837 primary918-rtt-5-354020267.example. type=1 mode=ok
+up3-1  | 22:58:46.553 up3 recv from 172.28.0.3 id=31179 primary918-rtt-6-409389121.example. type=1 mode=ok
+up2-1  | 22:58:48.927 up2 recv from 172.28.0.3 id=13816 primary968-rtt-14-69645516.example. type=1 mode=ok
+up2-1  | 22:58:49.018 up2 control: mode=ok delay=0ms
+up3-1  | 22:58:46.615 up3 recv from 172.28.0.3 id=37020 primary918-rtt-7-665153745.example. type=1 mode=ok
+up3-1  | 22:58:46.675 up3 recv from 172.28.0.3 id=15349 primary918-rtt-8-684532771.example. type=1 mode=ok
+up3-1  | 22:58:46.734 up3 recv from 172.28.0.3 id=8346 primary918-rtt-9-880659134.example. type=1 mode=ok
+up3-1  | 22:58:46.795 up3 recv from 172.28.0.3 id=64962 primary918-rtt-10-554342375.example. type=1 mode=ok
+up3-1  | 22:58:46.850 up3 recv from 172.28.0.3 id=62734 primary918-rtt-11-1057541233.example. type=1 mode=ok
+up3-1  | 22:58:46.904 up3 recv from 172.28.0.3 id=22551 primary918-rtt-12-777127725.example. type=1 mode=ok
+up3-1  | 22:58:46.961 up3 recv from 172.28.0.3 id=28922 primary918-rtt-13-483589217.example. type=1 mode=ok
+up3-1  | 22:58:47.023 up3 recv from 172.28.0.3 id=36437 primary918-rtt-14-267108837.example. type=1 mode=ok
+up3-1  | 22:58:47.116 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:47.118 up3 control: mode=ok delay=0ms
+up2-1  | 22:58:49.020 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:49.024 up2 recv from 172.28.0.2 id=51709 primary476-seq-0-785904662.example. type=1 mode=ok
+up2-1  | 22:58:49.085 up2 recv from 172.28.0.2 id=38411 primary476-seq-1-104353624.example. type=1 mode=ok
+up2-1  | 22:58:49.147 up2 recv from 172.28.0.2 id=50935 primary476-seq-2-34865603.example. type=1 mode=ok
+up2-1  | 22:58:49.213 up2 recv from 172.28.0.2 id=3412 primary476-seq-3-1072883838.example. type=1 mode=ok
+up2-1  | 22:58:49.278 up2 recv from 172.28.0.2 id=6519 primary476-seq-4-975945481.example. type=1 mode=ok
+up2-1  | 22:58:49.342 up2 recv from 172.28.0.2 id=27345 primary476-seq-5-190660237.example. type=1 mode=ok
+up2-1  | 22:58:49.406 up2 recv from 172.28.0.2 id=61228 primary476-seq-6-39396954.example. type=1 mode=ok
+up2-1  | 22:58:49.471 up2 recv from 172.28.0.2 id=5610 primary476-seq-7-979491764.example. type=1 mode=ok
+up2-1  | 22:58:49.534 up2 recv from 172.28.0.2 id=12604 primary476-seq-8-158946230.example. type=1 mode=ok
+up3-1  | 22:58:48.058 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:48.129 up3 recv from 172.28.0.3 id=30923 primary968-rtt-1-931074991.example. type=1 mode=ok
+up2-1  | 22:58:49.599 up2 recv from 172.28.0.2 id=63931 primary476-seq-9-555219795.example. type=1 mode=ok
+up2-1  | 22:58:49.663 up2 recv from 172.28.0.2 id=28729 primary476-seq-10-906318081.example. type=1 mode=ok
+up2-1  | 22:58:49.727 up2 recv from 172.28.0.2 id=52471 primary476-seq-11-473869513.example. type=1 mode=ok
+up2-1  | 22:58:49.791 up2 recv from 172.28.0.2 id=59581 primary476-seq-12-425659021.example. type=1 mode=ok
+up2-1  | 22:58:49.857 up2 recv from 172.28.0.2 id=34832 primary476-seq-13-1033884393.example. type=1 mode=ok
+up3-1  | 22:58:48.187 up3 recv from 172.28.0.3 id=61648 primary968-rtt-2-85600911.example. type=1 mode=ok
+up3-1  | 22:58:48.250 up3 recv from 172.28.0.3 id=45282 primary968-rtt-3-603881684.example. type=1 mode=ok
+up3-1  | 22:58:48.312 up3 recv from 172.28.0.3 id=31753 primary968-rtt-4-787250866.example. type=1 mode=ok
+up3-1  | 22:58:48.376 up3 recv from 172.28.0.3 id=54783 primary968-rtt-5-53352421.example. type=1 mode=ok
+up3-1  | 22:58:48.682 up3 recv from 172.28.0.3 id=20509 primary968-rtt-10-545990679.example. type=1 mode=ok
+up3-1  | 22:58:48.803 up3 recv from 172.28.0.3 id=39686 primary968-rtt-12-293369169.example. type=1 mode=ok
+up2-1  | 22:58:49.923 up2 recv from 172.28.0.2 id=47691 primary476-seq-14-91350501.example. type=1 mode=ok
+up2-1  | 22:58:49.986 up2 control: mode=ok delay=0ms
+up3-1  | 22:58:49.019 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:49.020 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:49.987 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:49.994 up3 recv from 172.28.0.3 id=37796 primary476-rtt-0-105799102.example. type=1 mode=ok
+up3-1  | 22:58:50.176 up3 recv from 172.28.0.3 id=59218 primary476-rtt-3-977317789.example. type=1 mode=ok
+up3-1  | 22:58:50.237 up3 recv from 172.28.0.3 id=55353 primary476-rtt-4-103432973.example. type=1 mode=ok
+up2-1  | 22:58:50.052 up2 recv from 172.28.0.3 id=11676 primary476-rtt-1-810814699.example. type=1 mode=ok
+up2-1  | 22:58:50.115 up2 recv from 172.28.0.3 id=37618 primary476-rtt-2-328464023.example. type=1 mode=ok
+up2-1  | 22:58:50.431 up2 recv from 172.28.0.3 id=12296 primary476-rtt-7-306464151.example. type=1 mode=ok
+up2-1  | 22:58:50.492 up2 recv from 172.28.0.3 id=20436 primary476-rtt-8-934921838.example. type=1 mode=ok
+up2-1  | 22:58:50.679 up2 recv from 172.28.0.3 id=30703 primary476-rtt-11-772965334.example. type=1 mode=ok
+up2-1  | 22:58:50.740 up2 recv from 172.28.0.3 id=31993 primary476-rtt-12-1004392305.example. type=1 mode=ok
+up2-1  | 22:58:50.857 up2 recv from 172.28.0.3 id=24955 primary476-rtt-14-491805649.example. type=1 mode=ok
+up2-1  | 22:58:50.942 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:50.944 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:51.330 up2 recv from 172.28.0.2 id=53036 primary479-seq-0-39127083.example. type=1 mode=ok
+up2-1  | 22:58:52.148 up2 recv from 172.28.0.2 id=30940 primary479-seq-1-937198037.example. type=1 mode=ok
+up2-1  | 22:58:53.718 up2 recv from 172.28.0.2 id=21513 primary479-seq-2-664720668.example. type=1 mode=ok
+up2-1  | 22:58:53.780 up2 recv from 172.28.0.2 id=30971 primary479-seq-3-596139301.example. type=1 mode=ok
+up2-1  | 22:58:53.840 up2 recv from 172.28.0.2 id=4697 primary479-seq-4-759761490.example. type=1 mode=ok
+up2-1  | 22:58:53.902 up2 recv from 172.28.0.2 id=40796 primary479-seq-5-861525529.example. type=1 mode=ok
+up2-1  | 22:58:53.964 up2 recv from 172.28.0.2 id=51133 primary479-seq-6-645633019.example. type=1 mode=ok
+up2-1  | 22:58:54.026 up2 recv from 172.28.0.2 id=48883 primary479-seq-7-37258424.example. type=1 mode=ok
+up2-1  | 22:58:54.087 up2 recv from 172.28.0.2 id=52589 primary479-seq-8-295866442.example. type=1 mode=ok
+up2-1  | 22:58:54.148 up2 recv from 172.28.0.2 id=27256 primary479-seq-9-881674943.example. type=1 mode=ok
+up3-1  | 22:58:50.301 up3 recv from 172.28.0.3 id=35798 primary476-rtt-5-410789690.example. type=1 mode=ok
+up3-1  | 22:58:50.369 up3 recv from 172.28.0.3 id=17113 primary476-rtt-6-855643479.example. type=1 mode=ok
+up3-1  | 22:58:50.554 up3 recv from 172.28.0.3 id=58580 primary476-rtt-9-755970720.example. type=1 mode=ok
+up3-1  | 22:58:50.614 up3 recv from 172.28.0.3 id=38348 primary476-rtt-10-462422879.example. type=1 mode=ok
+up3-1  | 22:58:50.799 up3 recv from 172.28.0.3 id=9661 primary476-rtt-13-103923071.example. type=1 mode=ok
+up3-1  | 22:58:50.943 up3 control: mode=ok delay=0ms
+up2-1  | 22:58:54.208 up2 recv from 172.28.0.2 id=34556 primary479-seq-10-78037466.example. type=1 mode=ok
+up2-1  | 22:58:54.267 up2 recv from 172.28.0.2 id=2250 primary479-seq-11-378037199.example. type=1 mode=ok
+up3-1  | 22:58:50.944 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:54.510 up3 control: mode=ok delay=0ms
+up2-1  | 22:58:54.329 up2 recv from 172.28.0.2 id=56911 primary479-seq-12-45282603.example. type=1 mode=ok
+up2-1  | 22:58:54.386 up2 recv from 172.28.0.2 id=43245 primary479-seq-13-689945125.example. type=1 mode=ok
+up2-1  | 22:58:54.446 up2 recv from 172.28.0.2 id=13097 primary479-seq-14-257929546.example. type=1 mode=ok
+up2-1  | 22:58:54.509 up2 control: mode=ok delay=0ms
+up3-1  | 22:58:54.513 up3 recv from 172.28.0.3 id=23035 primary479-rtt-0-518431366.example. type=1 mode=ok
+up3-1  | 22:58:54.751 up3 recv from 172.28.0.3 id=20905 primary479-rtt-4-811185910.example. type=1 mode=ok
+up3-1  | 22:58:55.310 up3 recv from 172.28.0.3 id=8763 primary479-rtt-7-440956650.example. type=1 mode=ok
+up2-1  | 22:58:54.575 up2 recv from 172.28.0.3 id=53938 primary479-rtt-1-350490450.example. type=1 mode=ok
+up2-1  | 22:58:54.636 up2 recv from 172.28.0.3 id=61456 primary479-rtt-2-758799692.example. type=1 mode=ok
+up2-1  | 22:58:54.693 up2 recv from 172.28.0.3 id=17786 primary479-rtt-3-366317413.example. type=1 mode=ok
+up2-1  | 22:58:54.809 up2 recv from 172.28.0.3 id=24067 primary479-rtt-5-476054551.example. type=1 mode=ok
+up2-1  | 22:58:55.250 up2 recv from 172.28.0.3 id=27263 primary479-rtt-6-290096200.example. type=1 mode=ok
+up3-1  | 22:58:55.367 up3 recv from 172.28.0.3 id=5354 primary479-rtt-8-806173084.example. type=1 mode=ok
+up3-1  | 22:58:55.423 up3 recv from 172.28.0.3 id=56372 primary479-rtt-9-941372108.example. type=1 mode=ok
+up3-1  | 22:58:55.606 up3 recv from 172.28.0.3 id=8477 primary479-rtt-12-714500789.example. type=1 mode=ok
+up3-1  | 22:58:55.668 up3 recv from 172.28.0.3 id=8759 primary479-rtt-13-608720702.example. type=1 mode=ok
+up3-1  | 22:58:55.727 up3 recv from 172.28.0.3 id=14463 primary479-rtt-14-594647058.example. type=1 mode=ok
+up3-1  | 22:58:55.817 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:55.818 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:59.374 up3 control: mode=ok delay=0ms
+up3-1  | 22:58:59.437 up3 recv from 172.28.0.3 id=47940 primary60-rtt-1-25396961.example. type=1 mode=ok
+up3-1  | 22:59:00.069 up3 recv from 172.28.0.3 id=39434 primary60-rtt-5-1028394313.example. type=1 mode=ok
+up3-1  | 22:59:00.193 up3 recv from 172.28.0.3 id=31690 primary60-rtt-7-891999965.example. type=1 mode=ok
+up3-1  | 22:59:00.371 up3 recv from 172.28.0.3 id=9838 primary60-rtt-10-380479456.example. type=1 mode=ok
+up3-1  | 22:59:00.489 up3 recv from 172.28.0.3 id=31825 primary60-rtt-12-782023757.example. type=1 mode=ok
+up3-1  | 22:59:00.696 up3 control: mode=ok delay=0ms
+up3-1  | 22:59:03.965 up3 control: mode=ok delay=0ms
+up2-1  | 22:58:55.481 up2 recv from 172.28.0.3 id=25178 primary479-rtt-10-539149076.example. type=1 mode=ok
+up2-1  | 22:58:55.544 up2 recv from 172.28.0.3 id=24905 primary479-rtt-11-996457189.example. type=1 mode=ok
+up2-1  | 22:58:55.816 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:55.818 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:56.205 up2 recv from 172.28.0.2 id=55269 primary60-seq-0-611128331.example. type=1 mode=ok
+up2-1  | 22:58:57.023 up2 recv from 172.28.0.2 id=52433 primary60-seq-1-794186528.example. type=1 mode=ok
+up2-1  | 22:58:58.590 up2 recv from 172.28.0.2 id=59668 primary60-seq-2-457881749.example. type=1 mode=ok
+up2-1  | 22:58:58.652 up2 recv from 172.28.0.2 id=32567 primary60-seq-3-491096956.example. type=1 mode=ok
+up2-1  | 22:58:58.711 up2 recv from 172.28.0.2 id=39840 primary60-seq-4-642365602.example. type=1 mode=ok
+up2-1  | 22:58:58.772 up2 recv from 172.28.0.2 id=28790 primary60-seq-5-1018594792.example. type=1 mode=ok
+up2-1  | 22:58:58.834 up2 recv from 172.28.0.2 id=57654 primary60-seq-6-671296796.example. type=1 mode=ok
+up2-1  | 22:58:58.894 up2 recv from 172.28.0.2 id=52480 primary60-seq-7-650034892.example. type=1 mode=ok
+up2-1  | 22:58:58.954 up2 recv from 172.28.0.2 id=63336 primary60-seq-8-48857865.example. type=1 mode=ok
+up2-1  | 22:58:59.013 up2 recv from 172.28.0.2 id=5085 primary60-seq-9-691119605.example. type=1 mode=ok
+up2-1  | 22:58:59.070 up2 recv from 172.28.0.2 id=30192 primary60-seq-10-914895642.example. type=1 mode=ok
+up2-1  | 22:58:59.131 up2 recv from 172.28.0.2 id=58366 primary60-seq-11-893437908.example. type=1 mode=ok
+up2-1  | 22:58:59.190 up2 recv from 172.28.0.2 id=37093 primary60-seq-12-266768880.example. type=1 mode=ok
+up2-1  | 22:58:59.251 up2 recv from 172.28.0.2 id=27790 primary60-seq-13-154522855.example. type=1 mode=ok
+up2-1  | 22:58:59.311 up2 recv from 172.28.0.2 id=38280 primary60-seq-14-700229624.example. type=1 mode=ok
+up2-1  | 22:58:59.373 up2 control: mode=ok delay=0ms
+up2-1  | 22:58:59.376 up2 recv from 172.28.0.3 id=26171 primary60-rtt-0-584481455.example. type=1 mode=ok
+up2-1  | 22:58:59.882 up2 recv from 172.28.0.3 id=41885 primary60-rtt-2-546555971.example. type=1 mode=ok
+up2-1  | 22:58:59.945 up2 recv from 172.28.0.3 id=40529 primary60-rtt-3-579428890.example. type=1 mode=ok
+up2-1  | 22:59:00.007 up2 recv from 172.28.0.3 id=27372 primary60-rtt-4-341890374.example. type=1 mode=ok
+up2-1  | 22:59:00.131 up2 recv from 172.28.0.3 id=61067 primary60-rtt-6-1059774995.example. type=1 mode=ok
+up2-1  | 22:59:00.252 up2 recv from 172.28.0.3 id=50206 primary60-rtt-8-358441092.example. type=1 mode=ok
+up2-1  | 22:59:00.310 up2 recv from 172.28.0.3 id=12725 primary60-rtt-9-596763186.example. type=1 mode=ok
+up2-1  | 22:59:00.431 up2 recv from 172.28.0.3 id=54044 primary60-rtt-11-244097210.example. type=1 mode=ok
+up2-1  | 22:59:00.550 up2 recv from 172.28.0.3 id=26618 primary60-rtt-13-563626802.example. type=1 mode=ok
+up2-1  | 22:59:00.608 up2 recv from 172.28.0.3 id=63276 primary60-rtt-14-919674905.example. type=1 mode=ok
+up2-1  | 22:59:00.696 up2 control: mode=ok delay=0ms
+up2-1  | 22:59:01.083 up2 recv from 172.28.0.2 id=25110 rec-down-seq-0-241962870.example. type=1 mode=ok
+up2-1  | 22:59:01.902 up2 recv from 172.28.0.2 id=25266 rec-down-seq-1-386836833.example. type=1 mode=ok
+up2-1  | 22:59:03.482 up2 recv from 172.28.0.2 id=18052 rec-down-seq-2-151179934.example. type=1 mode=ok
+up2-1  | 22:59:03.546 up2 recv from 172.28.0.2 id=43539 rec-down-seq-3-298481885.example. type=1 mode=ok
+up2-1  | 22:59:03.607 up2 recv from 172.28.0.2 id=45199 rec-down-seq-4-84038494.example. type=1 mode=ok
+up2-1  | 22:59:03.665 up2 recv from 172.28.0.2 id=18138 rec-down-seq-5-478679860.example. type=1 mode=ok
+up2-1  | 22:59:03.726 up2 recv from 172.28.0.2 id=56110 rec-down-seq-6-301777678.example. type=1 mode=ok
+up2-1  | 22:59:03.787 up2 recv from 172.28.0.2 id=45231 rec-down-seq-7-345747942.example. type=1 mode=ok
+up2-1  | 22:59:03.847 up2 recv from 172.28.0.2 id=2918 rec-down-seq-8-91771505.example. type=1 mode=ok
+up2-1  | 22:59:03.903 up2 recv from 172.28.0.2 id=13647 rec-down-seq-9-1038401725.example. type=1 mode=ok
+up2-1  | 22:59:03.963 up2 control: mode=ok delay=0ms
+up2-1  | 22:59:03.968 up2 recv from 172.28.0.2 id=44567 rec-up-8482691.example. type=1 mode=ok
+up2-1  | 22:59:05.981 up2 recv from 172.28.0.2 id=21159 rec-up-907981326.example. type=1 mode=ok
+up2-1  | 22:59:07.990 up2 recv from 172.28.0.2 id=27456 rec-up-572974282.example. type=1 mode=ok
+up2-1  | 22:59:10.001 up2 recv from 172.28.0.2 id=681 rec-up-568876129.example. type=1 mode=ok
+up2-1  | 22:59:12.010 up2 recv from 172.28.0.2 id=25410 rec-up-206065702.example. type=1 mode=ok
+up2-1  | 22:59:14.019 up2 recv from 172.28.0.2 id=5689 rec-up-1072307024.example. type=1 mode=ok
+up2-1  | 22:59:16.030 up2 recv from 172.28.0.2 id=48818 rec-up-80576379.example. type=1 mode=ok
+up2-1  | 22:59:18.041 up2 recv from 172.28.0.2 id=62111 rec-up-193471426.example. type=1 mode=ok
+up2-1  | 22:59:20.054 up2 recv from 172.28.0.2 id=14289 rec-up-338568175.example. type=1 mode=ok
+up2-1  | 22:59:22.065 up2 recv from 172.28.0.2 id=46855 rec-up-838895731.example. type=1 mode=ok
+up2-1  | 22:59:24.077 up2 recv from 172.28.0.2 id=17120 rec-up-518732818.example. type=1 mode=ok
+up2-1  | 22:59:26.085 up2 recv from 172.28.0.2 id=20670 rec-up-923485814.example. type=1 mode=ok
+up2-1  | 22:59:28.098 up2 recv from 172.28.0.2 id=20834 rec-up-439702087.example. type=1 mode=ok
+up2-1  | 22:59:30.110 up2 recv from 172.28.0.2 id=1461 rec-up-158311704.example. type=1 mode=ok

@@ -1,0 +1,117 @@
+!! FAILED !! : acl_interface
+!! FAILED !! : fwd_compress_c00c
+!! FAILED !! : proxy_protocol
+!! FAILED !! : root_anchor
+!! FAILED !! : root_hints
+!! FAILED !! : root_zonemd
+!! FAILED !! : stat_values
+.. SKIPPED.. : 00-lint
+.. SKIPPED.. : 01-doc
+.. SKIPPED.. : auth_tls
+.. SKIPPED.. : auth_tls_failcert
+.. SKIPPED.. : cachedb_no_store
+.. SKIPPED.. : clang-analysis
+.. SKIPPED.. : dnscrypt_cert
+.. SKIPPED.. : dnscrypt_cert_chacha
+.. SKIPPED.. : dnstap
+.. SKIPPED.. : dnstap_reconnect
+.. SKIPPED.. : dnstap_tcp
+.. SKIPPED.. : dnstap_tls
+.. SKIPPED.. : dnstap_tls_badcert
+.. SKIPPED.. : dnstap_tls_badname
+.. SKIPPED.. : dnstap_tls_clientauth
+.. SKIPPED.. : dnstap_tls_peername
+.. SKIPPED.. : doh_downstream
+.. SKIPPED.. : doh_downstream_buffer_size
+.. SKIPPED.. : doh_downstream_endpoint
+.. SKIPPED.. : doh_downstream_notls
+.. SKIPPED.. : doh_downstream_post
+.. SKIPPED.. : doq_downstream
+.. SKIPPED.. : dynlibmod
+.. SKIPPED.. : ipset
+.. SKIPPED.. : nss_compile
+.. SKIPPED.. : padding
+.. SKIPPED.. : pylib
+.. SKIPPED.. : pymod
+.. SKIPPED.. : pymod_thread
+.. SKIPPED.. : redis_reconnect_interval
+.. SKIPPED.. : redis_replica
+.. SKIPPED.. : subnet_cache_lookup
+** PASSED ** : 02-unittest
+** PASSED ** : 03-testbound
+** PASSED ** : 04-checkconf
+** PASSED ** : 05-asynclook
+** PASSED ** : 06-ianaports
+** PASSED ** : 07-confroot
+** PASSED ** : 08-host-lib
+** PASSED ** : 09-unbound-control
+** PASSED ** : 10-unbound-anchor
+** PASSED ** : auth_axfr
+** PASSED ** : auth_https
+** PASSED ** : auth_https_origin
+** PASSED ** : auth_transfer_limit
+** PASSED ** : blanks_cached_zone
+** PASSED ** : blanks_https
+** PASSED ** : cookie_file
+** PASSED ** : ctrl_itr
+** PASSED ** : ctrl_pipe
+** PASSED ** : ede
+** PASSED ** : edns_cache
+** PASSED ** : fast_reload_authdel
+** PASSED ** : fast_reload_fwd
+** PASSED ** : fast_reload_most_options
+** PASSED ** : fast_reload_thread
+** PASSED ** : fwd_ancil
+** PASSED ** : fwd_bogus
+** PASSED ** : fwd_capsid
+** PASSED ** : fwd_capsid_fallback
+** PASSED ** : fwd_capsid_strip
+** PASSED ** : fwd_capsid_white
+** PASSED ** : fwd_edns_bksec
+** PASSED ** : fwd_edns_probe
+** PASSED ** : fwd_malformed
+** PASSED ** : fwd_no_edns
+** PASSED ** : fwd_oneport
+** PASSED ** : fwd_tcp
+** PASSED ** : fwd_tcp_tc
+** PASSED ** : fwd_tcp_tc6
+** PASSED ** : fwd_three
+** PASSED ** : fwd_three_service
+** PASSED ** : fwd_ttlexpire
+** PASSED ** : fwd_udp
+** PASSED ** : fwd_udp_with_tcp_upstream
+** PASSED ** : fwd_udptmout
+** PASSED ** : fwd_waitudp
+** PASSED ** : fwd_zero
+** PASSED ** : hostsfileosx
+** PASSED ** : http_user_agent
+** PASSED ** : ip_ratelimit
+** PASSED ** : local_nodefault
+** PASSED ** : local_norec
+** PASSED ** : local_nosnoop
+** PASSED ** : log_servfail
+** PASSED ** : ratelimit
+** PASSED ** : rpz_reload
+** PASSED ** : speed_cache
+** PASSED ** : speed_local
+** PASSED ** : ssl_req_order
+** PASSED ** : ssl_req_timeout
+** PASSED ** : stat_timer
+** PASSED ** : stream_ssl
+** PASSED ** : stream_tcp
+** PASSED ** : stub_auth_tc
+** PASSED ** : stub_udp
+** PASSED ** : stub_udp_with_tcp_upstream
+** PASSED ** : stub_udp6
+** PASSED ** : svcb
+** PASSED ** : tcp_conn_limit
+** PASSED ** : tcp_conn_limit_dec
+** PASSED ** : tcp_idle_timeout
+** PASSED ** : tcp_req_order
+** PASSED ** : tcp_req_size
+** PASSED ** : tcp_req_timeout
+** PASSED ** : tcp_reuse
+** PASSED ** : tcp_sigpipe
+** PASSED ** : tls_reuse
+** PASSED ** : tls_reuse_auth
+** PASSED ** : zonemd_reload

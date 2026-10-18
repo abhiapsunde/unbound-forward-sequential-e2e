@@ -10,8 +10,8 @@ server is a pure fallback.
   [abhiapsunde/unbound `forward-sequential`](https://github.com/abhiapsunde/unbound/tree/forward-sequential)
 
 There are two parts. The end-to-end scenarios run real `unbound` processes against controllable
-fake upstreams. The upstream suite runs Unbound's own `make longtest` in Debian, on the branch and
-on its `master` base, for comparison.
+fake upstreams. The upstream suites run Unbound's own `make test` and `make longtest` in Debian, on the
+branch and on its `master` base, for comparison.
 
 ## Results for 585c58014
 
@@ -58,13 +58,17 @@ Artifacts, in [`results/585c58014`](results/585c58014):
 - `upstreams.log`: every query each fake upstream received.
 - `run.log`: console output.
 
-### Upstream test suite (`make longtest`)
+### Upstream test suites (`make test`, `make longtest`)
 
-This was run in Debian bookworm with [`Dockerfile.tdir`](Dockerfile.tdir), once for the branch
-and once for its base commit on `master` (`d648eac68`).
+This was run in Debian bookworm with [`Dockerfile.tdir`](Dockerfile.tdir): `make test` (unit
+tests and testbound replay tests), then `make longtest` (`.tdir` tests). It was run once for the
+branch and once for its base commit on `master` (`d648eac68`).
 
 | | Branch | master |
 |---|---|---|
+| `make test` | pass | pass |
+| Unit tests | 1,316,891 checks ok | 1,316,965 checks ok ⁵ |
+| testbound `.rpl` | 492 OK, 0 failed | 490 OK, 0 failed |
 | `.tdir` passed | 78 | 78 |
 | `.tdir` skipped (tool or feature not available) | 32 | 32 |
 | `.tdir` failed | 7 | 7 |
@@ -75,10 +79,13 @@ network namespaces (`acl_interface`, `proxy_protocol`), live internet (`root_anc
 `root_hints`, `root_zonemd`), and `fwd_compress_c00c` and `stat_values`. The tests closest to the
 change pass: `fast_reload_most_options`, `fast_reload_fwd`, and every other `fwd_*` test.
 
-`make longtest` builds the unit and replay tests but does not run them. `make test` on the
-branch, on macOS arm64, passed: 1,143,545 unit checks, the testbound self-test, and all 493
-`.rpl` replay tests, including the two new ones. `Dockerfile.tdir` now runs `make test` before
-`make longtest`. Results of that run in Debian, for the branch and `master`, will be added here.
+The branch adds two `.rpl` tests, `fwd_sequential` and `fwd_sequential_down`. That accounts for
+492 against 490.
+
+5. The unit test count differs from run to run, because some unit tests are randomised.
+
+Logs, in [`results/585c58014`](results/585c58014): `suite-forward-sequential.log.gz` and
+`suite-master-d648eac68.log.gz`. Per-test `.tdir` outcomes: `tdir-*.summary`.
 
 ## Running it
 
@@ -88,7 +95,7 @@ You need git, Docker and an Unbound checkout. `UNBOUND_SRC` defaults to `../unbo
 # end-to-end scenarios, about 2 minutes; artifacts land in ./out
 UNBOUND_SRC=~/src/unbound ./run.sh forward-sequential
 
-# upstream's own long test suite in Debian, about 6 minutes
+# upstream's own make test + make longtest in Debian, about 8 minutes
 UNBOUND_SRC=~/src/unbound ./longtest.sh forward-sequential
 ```
 
